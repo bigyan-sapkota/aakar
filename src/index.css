@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 48px;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.custom-transition {
+  @apply transition-all duration-300;
+}
+/* 
+.main-container:hover .boxa {
+  border: 4px solid black;
+} */
+
+/* .flex{
+  dispaly: felx;
+} */
